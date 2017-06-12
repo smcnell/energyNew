@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkeon Energy - Emergency</title>
+    <meta name="description" content="Arkeon Energy - Arborean Power Company - It's Your Choice" />
+		<meta name="keywords" content="Arborea, energy, Arkeon, alternative, solar, geothermal, biofuel, waste-management, llama" />
+		<meta name="author" content="Pumpernickel Solutions" />
+    <link rel="shortcut icon" href="img/icon.ico">
+		<!-- <link rel="stylesheet" type="text/css" href="css/default.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+    <link href="css/reset.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/patterns.js"></script>
+
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+
+		</script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+
+      <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      	<!-- <div class="wrapper"> -->
+          <!-- Navigation -->
+
+          <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                 <div class="container">
+                  <div class="navbar-header page-scroll">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <!--<a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>-->
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="myInverseNavbar2">
+      </div>
+                  <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                    <ul class="nav navbar-nav navbar-left">
+
+                    <li class="logonav"><a href="index.html"><img src="img/ArkeonNewNoW5.svg" id="logo"></a>
+
+                      <li class="dropdown"> <a href="account.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Account<span class="caret"></span></a>
+
+                         <ul class="dropdown-menu">
+                          <li><a href="account.html#overview">Sign Up</a></li>
+                          <li><a href="account.html">Login</a></li>
+                          <li role="separator"class="divider"></li>
+                          <li><a href="account.html#makepayment">Make Payment</a></li>
+                          <li><a href="account.html#overview">Payment History & Details</a></li>
+                          <li><a href="account.html#plan">Payment Plan & Auto-Pay</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="account.html#edit">Edit Account</a></li>
+                          <li><a href="account.html#edit">Change Energy Sources</a></li>
+                          <li><a href="account.html#manage">Multiple Accounts Management</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"> <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">News & About<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="about.html#map">Map</a></li>
+                          <li><a href="about.html#faq">FAQ & Help</a></li>
+                          <li><a href="about.html">News & Updates</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="about.html#sources">Energy Sources (Educational)</a></li>
+                          <li><a href="about.html#history">Company History</a></li>
+                          <li><a href="about.html#contact">Contact Us</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"> <a href="emergency.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Emergency<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="emergency.html#outage">Power Outage</a></li>
+                          <li><a href="emergency.html#dispatch">Emergency Dispatch</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="emergency.html#report">Claim Reports</a></li>
+                          <li><a href="emergency.html#weather">Weather Damage Reports</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav local-nav">
+                       <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                       <li class="hidden">
+                           <a class="page-scroll" href="#page-top"></a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#outage">Report Outage</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#dispatch">Emergency Dispatch</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#report">Report</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#weather">Weather</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#support">Support</a>
+                       </li>
+                          <!-- <li>
+                              <a class="page-scroll" href="#edit">Edit Account</a>
+                          </li>
+                          <li>
+                              <a class="page-scroll" href="#manage">Manage Accounts</a>
+                          </li>
+                          <li>
+                              <a class="page-scroll" href="#support">Support</a>
+                          </li> -->
+                      </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+              </div>
+              <!-- /.container -->
+
+
+
+
+
+
+    </nav>
+
+    <div class="splitter color3"></div>
+
+
+
+
+    <!-- Intro Section -->
+    <!-- <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Scrolling Nav</h1>
+                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+                    <a class="btn btn-default page-scroll" href="#overview">Click Me to Scroll Down!</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+    <!-- Outage Section -->
+    <section id="outage" class="outage-section">
+      <div class="container">
+          <div class="row">
+            <div class="sectionheadingemergency col-xs-12 col-lg-12">
+                <h1>Report Outage</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-xs-12 col-lg-6">
+              <label for="comment">Send us a message, and we will reply right away:</label>
+              <textarea class="form-control" rows="18" id="comment"></textarea>
+              <button type="button" class="btn btn-danger offset-lg-4 offset-xs-8">Send</button>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>Call Us</h4>
+              <h5>1800-555-1234</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>eMail Us</h4>
+              <h5>support@arkeon.com</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>or Visit Us in person</h4>
+              <h5>Arkeon Energy</h5>
+              <h5>P.O. Box 100255</h5>
+              <h5>Arkeos, AN 29202</h5>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="splitter color4"></div>
+
+
+
+
+
+
+    <!-- Dispatch Section -->
+    <section id="dispatch" class="dispatch-section">
+      <div class="container">
+          <div class="row">
+            <div class="sectionheadingemergency col-xs-12 col-lg-12">
+                <h1>Request Dispatch</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-xs-12 col-lg-6">
+              <label for="comment">Send us a message, and we will reply right away:</label>
+              <textarea class="form-control" rows="18" id="comment"></textarea>
+              <button type="button" class="btn btn-danger offset-lg-4 offset-xs-8">Send</button>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>Call Us</h4>
+              <h5>1800-555-1234</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>eMail Us</h4>
+              <h5>support@arkeon.com</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>or Visit Us in person</h4>
+              <h5>Arkeon Energy</h5>
+              <h5>P.O. Box 100255</h5>
+              <h5>Arkeos, AN 29202</h5>
+            </div>
+
+          </div>
+      </div>
+		 </section>
+
+
+    <div class="splitter color5"></div>
+
+
+
+
+
+
+
+    <!-- Report Section -->
+     <section id="report" class="report-section">
+       <div class="container">
+
+           <div class="row">
+             <div class="sectionheadingemergency col-xs-12 col-lg-12">
+                 <h1>Report</h1>
+             </div>
+           </div>
+
+           <div class="row">
+             <div class="form-group col-xs-12 col-lg-6">
+               <label for="comment">Send us a message, and we will reply right away:</label>
+               <textarea class="form-control" rows="18" id="comment"></textarea>
+               <button type="button" class="btn btn-danger offset-lg-4 offset-xs-8">Send</button>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>Call Us</h4>
+               <h5>1800-555-1234</h5>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>eMail Us</h4>
+               <h5>support@arkeon.com</h5>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>or Visit Us in person</h4>
+               <h5>Arkeon Energy</h5>
+               <h5>P.O. Box 100255</h5>
+               <h5>Arkeos, AN 29202</h5>
+             </div>
+           </div>
+
+       </div>
+     </section>
+
+     <div class="splitter color6"></div>
+
+
+
+
+
+
+     <!-- Weather Section -->
+     <section id="weather" class="weather-section">
+       <div class="container">
+
+           <div class="row">
+             <div class="sectionheadingemergency col-xs-12 col-lg-12">
+                 <h1>Weather</h1>
+             </div>
+           </div>
+           <div class="row">
+             <div class="form-group col-xs-12 col-lg-6">
+               <label for="comment">Send us a message, and we will reply right away:</label>
+               <textarea class="form-control" rows="18" id="comment"></textarea>
+               <button type="button" class="btn btn-danger offset-lg-4 offset-xs-8">Send</button>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>Call Us</h4>
+               <h5>1800-555-1234</h5>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>eMail Us</h4>
+               <h5>support@arkeon.com</h5>
+             </div>
+             <div class="supportcontact col-xs-12 col-lg-6">
+               <h4>or Visit Us in person</h4>
+               <h5>Arkeon Energy</h5>
+               <h5>P.O. Box 100255</h5>
+               <h5>Arkeos, AN 29202</h5>
+             </div>
+           </div>
+       </div>
+     </section>
+
+     <div class="splitter color1"></div>
+
+
+
+
+
+    <!-- Support Section -->
+    <section id="support" class="support-section">
+      <div class="container">
+
+          <div class="row">
+            <div class="sectionheadingemergency col-xs-12 col-lg-12">
+                <h1>Support</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-xs-12 col-lg-6">
+              <label for="comment">Send us a message, and we will reply right away:</label>
+              <textarea class="form-control" rows="18" id="comment"></textarea>
+              <button type="button" class="btn btn-danger offset-lg-4 offset-xs-8">Send</button>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>Call Us</h4>
+              <h5>1800-555-1234</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>eMail Us</h4>
+              <h5>support@arkeon.com</h5>
+            </div>
+            <div class="supportcontact col-xs-12 col-lg-6">
+              <h4>or Visit Us in person</h4>
+              <h5>Arkeon Energy</h5>
+              <h5>P.O. Box 100255</h5>
+              <h5>Arkeos, AN 29202</h5>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="../../%23BETA3/energy-master %235/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../%23BETA3/energy-master %235/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../../%23BETA3/energy-master %235/js/jquery.easing.min.js"></script>
+    <script src="../../%23BETA3/energy-master %235/js/scrolling-nav.js"></script>
+  <!-- </div> -->
+
+
+
+       <section class="footer">
+            <footer class="footerrow">
+              <div class="footercolor col-xs-6 col-md-3">
+                <br>
+       <h1> ARKEON ENERGY</h1>
+       </div><div class="footercolor col-xs-6 col-md-3">
+         <br>
+         <br>
+         <ul class="footerbottom">
+         <li class="footer"><a href="account.html">Account</a></li>
+         <li class="footer"><a href="about.html">About</a></li>
+         <li class="footer"><a href="about.html">News</a></li>
+       </ul>
+       <ul class="footerbottom">
+       <li class="footer"><a href="emergency.html#support">Support</a></li>
+       <li class="footer"><a href="about.html">Resources</a></li>
+       <li class="footer"><a href="emergency.html">Emergency</a></li>
+         </ul>
+       </div><div class="footercolor col-xs-6 col-md-3">
+         <br>
+         <br>
+       <img src="img/ArkeonNewLogo5.svg" id="logob">
+       </div>
+       <br>
+       <br>
+       <br>
+       <div class="footercolor footercolor col-xs-6 col-md-3">
+       <p class="footercontact">Contact Us<br>808-451-9810<br>Support@Arkeon.com</p>
+       </div>
+              </div>
+              </footer>
+       </section>
+
+
+
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- Scrolling Nav JavaScript -->
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/scrolling-nav.js"></script>
+    <!-- </div> -->
+
+</body>
+
+</html>
